@@ -39,6 +39,7 @@ body {
   outline: none;
   color: #f7f7f7;
   border: 1px solid transparent;
+  border-radius: 10px;
 }
 
 .custom_dark-btn {
@@ -119,7 +120,7 @@ a:focus {
 
 .navbar-brand,
 .navbar-brand:hover {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: bold;
   font-size: 24px;
   color: #fafcfd;
