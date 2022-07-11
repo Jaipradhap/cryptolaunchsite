@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #000000;
+  color: #505050;
   background-color: #ffffff;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .custom_dark-btn {
-  background-color: #000000;
+  background-color: #505050;
 }
 
 .custom_dark-btn:hover {
@@ -53,12 +53,12 @@ body {
 }
 
 .custom_orange-btn {
-  background-color: #fc5d35;
+  background-color: #505050;
 }
 
 .custom_orange-btn:hover {
-  border: 1px solid #fc5d35;
-  color: #fc5d35;
+  border: 1px solid #000000;
+  /* color: #fc5d35; */
   background-color: transparent;
 }
 
@@ -151,7 +151,7 @@ a:focus {
 .navbar-brand span {
   font-size: 20px;
   font-weight: 700;
-  color: #2e2e2d;
+  color: #505050;
   margin-top: 5px;
 }
 
@@ -309,7 +309,7 @@ a:focus {
 }
 
 .service_section .card:hover::after {
-  background-color: #fc5d35;
+  background-color: #505050;
 }
 
 /* end service section */
