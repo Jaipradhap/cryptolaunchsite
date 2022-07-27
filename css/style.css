@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #505050;
-  background-color: #ffffff;
+  color: #f7f7f7;
+  background-color: #3d3d3d;
 }
 
 .layout_padding {
@@ -43,23 +43,25 @@ body {
 }
 
 .custom_dark-btn {
-  background-color: #505050;
+  background-color: #464EB8;
 }
 
+
+
 .custom_dark-btn:hover {
-  border: 1px solid #000000;
-  color: #000000;
-  background-color: transparent;
+  border: 1px solid #464EB8;
+  color: #f7f7f7;
+  background-color: #505AC9;
 }
 
 .custom_orange-btn {
-  background-color: #505050;
+  background-color: #464EB8;
 }
 
 .custom_orange-btn:hover {
-  border: 1px solid #000000;
-  /* color: #fc5d35; */
-  background-color: transparent;
+  border: 1px solid #464EB8;
+  color: #f7f7f7;
+  background-color: #505AC9;
 }
 
 .custom_heading {
@@ -75,7 +77,8 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-color: #f7f7f7;
+  background-color: #3d3d3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
 
 .hero_area.sub_pages {
@@ -95,7 +98,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #343434;
+  color: #f7f7f7;
   text-align: center
 }
 
@@ -107,7 +110,7 @@ a:focus {
 
 a:hover,
 a:focus {
-  color: initial;
+  color: #f7f7f7;
 }
 
 .btn,
@@ -151,7 +154,7 @@ a:focus {
 .navbar-brand span {
   font-size: 20px;
   font-weight: 700;
-  color: #505050;
+  color: #f7f7f7;
   margin-top: 5px;
 }
 
@@ -201,6 +204,7 @@ a:focus {
 
 .slider_img-box img {
   width: 100%;
+  opacity: 0.5;
 }
 
 .slider_item-container {
@@ -275,20 +279,41 @@ a:focus {
 .service_section .card .card-img-top {
   width: 50px;
   margin: 55px auto 5px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  
 }
 
 .service_section .card {
   text-align: center;
   box-sizing: border-box;
   position: relative;
-  background-color: #f7f7f7;
-  border-radius: 40px;
+  color: #f7f7f7;
+  background-color: #3d3d3d;
+  border-radius: 10px;
 }
 
 .service_section .card .card-title {
-  color: #fc5d35;
+  color: #f7f7f7;
 
 }
+
+.card-body {
+  border-left-style: solid;
+  border-left-color: #505AC9;
+  
+}
+
+.card-texteco {
+  text-align: left;
+  
+}
+
+.card-textit {
+  text-align: left;
+  font-size: small;
+  color: #edb040;
+}
+
 
 .service_section .card::after {
   content: "";
@@ -466,6 +491,7 @@ a:focus {
 .info_section .social-box img {
   width: 35px;
   margin-right: 5px;
+  opacity: 0.5;
 }
 
 .info_section .form_container input {
